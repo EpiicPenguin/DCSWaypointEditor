@@ -68,6 +68,8 @@ in the capture status textbox.
 at the desired position every time the F10 map capture keybind is pressed.  `Quick Capture` can be toggled on/off with a
 hotkey (default is `LCtrl+LShift+T`).
 
+Do not have DCSWE and DCSTheWay.exe open at the same time as DCSWE will not be able to capture from The Way while DCSTheWay is open.
+
 #### Preset coordinates
 
 You may select a position from a list of preset coordinates. Coordinates for all Caucasus, Persian Gulf, Marianas, Nevada and Syria airfields
