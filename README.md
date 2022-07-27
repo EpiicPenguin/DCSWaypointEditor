@@ -16,7 +16,7 @@ Currently supported aircraft:
 ## Installation
 
 1. Download and install [Google Tesseract](https://github.com/UB-Mannheim/tesseract/wiki)
-2. (optinal but recomended for fast cordinate capture and capture from f11 view) Dowload and install ["The Way"](https://github.com/aronCiucu/DCSTheWay)
+2. (optinal) but very recomended for faster cordinate capture and capture from f11 view: Dowload and install ["The Way"](https://github.com/aronCiucu/DCSTheWay)
 3. Unzip the contents of the DCS-Waypoint-Editor ZIP to a folder
 4. Run `dcs_wp_editor.exe` and perform the first time setup.
 
@@ -30,7 +30,7 @@ This is why its recomended to also install DCSTheWay. DCSTheWay adds the ablity 
 
 Waypoints and JDAM/SLAM preplanned missions can be added by either manually entering a set of coordinates or capturing them
 from the DCS F10 map via optical text recognition. If "DCSTheWay" is installed, the coordinates can be captured from the
-current camera view.
+current camera view or center of the f10 map.
 
 #### Manual coordinates entry
 
@@ -88,7 +88,7 @@ of the application.
 
 ##### F/A-18C
 
-1. Make sure the main HSI page is on the AMPCD (bottom screen) if you are entering waypoints.
+1. Make sure the main HSI page is on the AMPCD (bottom screen) if you are entering waypoints and "Presise" mode is off. (DCSWE always toggles presise mode ON while entering and then OFF agian when done.)
  
 2. If you are entering JDAM/SLAM preplanned missions, make sure to select the MSN preplanned missions page on the left DDI.
 JDAM and SLAM missions must be entered separately.
