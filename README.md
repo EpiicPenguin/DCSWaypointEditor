@@ -16,8 +16,15 @@ Currently supported aircraft:
 ## Installation
 
 1. Download and install [Google Tesseract](https://github.com/UB-Mannheim/tesseract/wiki)
-2. Unzip the contents of the DCS-Waypoint-Editor ZIP to a folder
-3. Run `dcs_wp_editor.exe` and perform the first time setup.
+2. (optinal but recomended for fast cordinate capture and capture from f11 view) Dowload and install ["The Way"](https://github.com/aronCiucu/DCSTheWay)
+3. Unzip the contents of the DCS-Waypoint-Editor ZIP to a folder
+4. Run `dcs_wp_editor.exe` and perform the first time setup.
+
+## How it Works
+
+DCSWE works by taking a screenshot of the cordianates on the F10 map and using OCR (google tesseract) to "read" and convert that into waypoints and sequences. Anything that modifys that part of the screen like a discord overlay or FPS counter will stop the OCR from working. 
+This is why its recomended to also install DCSTheWay. DCSTheWay adds the ablity to get cordiantes directly from DCS without OCR and its limitations, it also lets you capture from your current F11 camera location or Current Location (Cockpit View). 
+ 
 
 ## Usage
 
@@ -140,7 +147,7 @@ a new profile and a pop-up should appear letting you know import was successful.
 
 ## Donate
 
-If you'd like to support my work, it is very much appreciated!
+If you'd like to support my work (Santi871), it is very much appreciated!
 
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=U6ZGEE7PF6KAG&source=url)
 
